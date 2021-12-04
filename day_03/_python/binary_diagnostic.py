@@ -7,7 +7,7 @@ def parse_input() -> list[str]:
     Parses the data and returns a list of binary entries
     """
     with open("../input.txt", "r") as f:
-        return [line.strip() for line in f.readlines()]
+        return [line.strip() for line in f]
 
 
 def more_common_bit(bits: Iterable[str]) -> str:

@@ -3,8 +3,7 @@ def parse_input() -> list[int]:
     Parses the input and returns a list of depth measurements.
     """
     with open("../input.txt", "r") as f:
-        depths = [int(line) for line in f.readlines()]
-    return depths
+        return [int(line) for line in f]
 
 
 def count_increases(measurements: list[int]) -> int:

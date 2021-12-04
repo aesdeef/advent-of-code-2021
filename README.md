@@ -10,7 +10,7 @@ Structure of the repo:
 - `kotlin` contains my attempts to solve the puzzles in Kotlin. I've only started learning Kotlin this month, so any suggestions for improvements are welcome.
 
 |     | raw  | python | javascript | kotlin |
-| --: | ---- | ------ | ---------- | −----− |
+| --: | ---- | ------ | ---------- | ------ |
 |   1 | ⭐⭐   | ⭐⭐     | ⭐⭐         | ⭐⭐     |
 |   2 | ⭐⭐   | ⭐⭐     | ⭐⭐         | ⭐⭐     |
 |   3 | ⭐⭐   | ⭐⭐     | ⭐⭐         |        |

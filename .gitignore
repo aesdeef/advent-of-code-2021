@@ -199,5 +199,4 @@ hs_err_pid*
 
 
 # Puzzle input
-input.txt
-input
+*.txt

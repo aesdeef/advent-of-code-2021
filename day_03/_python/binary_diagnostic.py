@@ -28,7 +28,7 @@ def less_common_bit(bits: Iterable[str]) -> str:
 
 def multiply_binary(first: str, second: str) -> int:
     """
-    Multiplies two string representing binary numbers
+    Parses two strings representing binary numbers and multiplies them
     """
     return int(first, 2) * int(second, 2)
 

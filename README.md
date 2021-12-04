@@ -8,33 +8,34 @@ Structure of the repo:
 - `python` contains much more readable solutions with type hints and comments using Python 3.10
 - `javascript` contains solutions in JavaScript
 - `kotlin` contains my attempts to solve the puzzles in Kotlin. I've only started learning Kotlin this month, so any suggestions for improvements are welcome.
+- `elm` contains my solutions in Elm (see the instructions inside)
 
-|     | raw  | python | javascript | kotlin |
-| --: | ---- | ------ | ---------- | ------ |
-|   1 | ⭐⭐   | ⭐⭐     | ⭐⭐         | ⭐⭐     |
-|   2 | ⭐⭐   | ⭐⭐     | ⭐⭐         | ⭐⭐     |
-|   3 | ⭐⭐   | ⭐⭐     | ⭐⭐         |        |
-|   4 | ⭐⭐   | ⭐⭐     |            |        |
-|   5 |      |        |            |        |
-|   6 |      |        |            |        |
-|   7 |      |        |            |        |
-|   8 |      |        |            |        |
-|   9 |      |        |            |        |
-|  10 |      |        |            |        |
-|  11 |      |        |            |        |
-|  12 |      |        |            |        |
-|  13 |      |        |            |        |
-|  14 |      |        |            |        |
-|  15 |      |        |            |        |
-|  16 |      |        |            |        |
-|  17 |      |        |            |        |
-|  18 |      |        |            |        |
-|  19 |      |        |            |        |
-|  20 |      |        |            |        |
-|  21 |      |        |            |        |
-|  22 |      |        |            |        |
-|  23 |      |        |            |        |
-|  24 |      |        |            |        |
-|  25 |      |        |            |        |
+|     | raw  | python | javascript | kotlin | elm |
+| --: | ---- | ------ | ---------- | ------ | --- |
+|   1 | ⭐⭐   | ⭐⭐     | ⭐⭐         | ⭐⭐     | ⭐⭐  |
+|   2 | ⭐⭐   | ⭐⭐     | ⭐⭐         | ⭐⭐     |     |
+|   3 | ⭐⭐   | ⭐⭐     | ⭐⭐         |        |     |
+|   4 | ⭐⭐   | ⭐⭐     |            |        |     |
+|   5 |      |        |            |        |     |
+|   6 |      |        |            |        |     |
+|   7 |      |        |            |        |     |
+|   8 |      |        |            |        |     |
+|   9 |      |        |            |        |     |
+|  10 |      |        |            |        |     |
+|  11 |      |        |            |        |     |
+|  12 |      |        |            |        |     |
+|  13 |      |        |            |        |     |
+|  14 |      |        |            |        |     |
+|  15 |      |        |            |        |     |
+|  16 |      |        |            |        |     |
+|  17 |      |        |            |        |     |
+|  18 |      |        |            |        |     |
+|  19 |      |        |            |        |     |
+|  20 |      |        |            |        |     |
+|  21 |      |        |            |        |     |
+|  22 |      |        |            |        |     |
+|  23 |      |        |            |        |     |
+|  24 |      |        |            |        |     |
+|  25 |      |        |            |        |     |
 
 Feel free to start a discussion if you have any questions or suggestions.

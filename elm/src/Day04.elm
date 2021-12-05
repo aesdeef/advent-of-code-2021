@@ -126,6 +126,8 @@ remainingNumbers draws line =
         |> List.filter (notDrawn draws)
 
 
+{-| Finds the last draw (or returns 0 if for some reason it can't find it)
+-}
 lastDraw : Draws -> Int
 lastDraw draws =
     case draws |> List.reverse |> List.head of
@@ -136,6 +138,8 @@ lastDraw draws =
             0
 
 
+{-| Returns the final score for the board
+-}
 boardScore : Board -> Draws -> Int
 boardScore board draws =
     (board

@@ -4,7 +4,7 @@ Here are my solutions to the [Advent of Code 2021](https://adventofcode.com/2021
 
 Structure of the repo:
 - `input` contains the input files (not included in the repo)
-- `raw` contains the exact Python code I had when I got the second star for that day, without any type hints, comments, and possibly even without sense (but it works)
+- `raw` contains the exact Python code I had when I got the second star for that day, without any type hints, comments, and possibly even without sense (but it works). If there's just a single `part1.py` file for a given day, it will actually contain both parts.
 - `python` contains much more readable solutions with type hints and comments using Python 3.10
 - `javascript` contains solutions in JavaScript
 - `kotlin` contains my attempts to solve the puzzles in Kotlin. I've only started learning Kotlin this month, so any suggestions for improvements are welcome.

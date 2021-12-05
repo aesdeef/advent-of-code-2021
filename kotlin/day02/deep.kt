@@ -2,7 +2,7 @@ package day02
 
 import java.io.File
 
-typealias Instruction = Pair<String, Int>
+data class Instruction(val command: String, val value: Int)
 
 fun main() {
     val instructions = parseInput()
@@ -16,7 +16,7 @@ fun parseInput(): List<Instruction> {
     return File("../../input/02.txt")
         .readLines()
         .map { it.split(" ") }
-        .map { Pair(it[0], it[1].toInt()) }
+        .map { Instruction(it[0], it[1].toInt()) }
 }
 
 fun solvePart1(instructions: List<Instruction>): Int {

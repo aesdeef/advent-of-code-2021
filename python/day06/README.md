@@ -1,1 +1,1 @@
-The `shorter.py` file contains an alternative solution squeezed into 4 lines of (terrible) code, and `golf.py` has a solution in 134 characters which require the input to be in a file named `6` (no extension)
+The `shorter.py` file contains an alternative solution squeezed into 4 lines of (terrible) code, and `golf.py` has a solution in 132 characters which require the input to be in a file named `6` (no extension)

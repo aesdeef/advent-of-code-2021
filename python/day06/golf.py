@@ -1,1 +1,1 @@
-l=[open('6').read().count(str(d)) for d in range(9)];x=['l=l[1:]+[l[0]];l[6]+=l[8]']*258;x[80]=x[-1]='print(sum(l))';exec(';'.join(x))
+l=[open('6').read().count(d) for d in '012345678'];x=['l=l[1:]+[l[0]];l[6]+=l[8]']*258;x[80]=x[-1]='print(sum(l))';exec(';'.join(x))

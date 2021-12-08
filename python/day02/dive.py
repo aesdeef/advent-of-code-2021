@@ -3,13 +3,16 @@ from typing import Generator
 
 INPUT_FILE = "../../input/02.txt"
 
+
 class Command(Enum):
     FORWARD = "forward"
     DOWN = "down"
     UP = "up"
 
+
 Instruction = tuple[Command, int]
 InstructionGenerator = Generator[Instruction, None, None]
+
 
 def parse_input() -> InstructionGenerator:
     """
@@ -21,6 +24,7 @@ def parse_input() -> InstructionGenerator:
             command = Command(command)
             value = int(value)
             yield (command, value)
+
 
 def solve_part1(instructions: InstructionGenerator) -> int:
     """
@@ -40,6 +44,7 @@ def solve_part1(instructions: InstructionGenerator) -> int:
                 depth -= value
 
     return horizontal * depth
+
 
 def solve_part2(instructions: InstructionGenerator) -> int:
     """
@@ -62,8 +67,9 @@ def solve_part2(instructions: InstructionGenerator) -> int:
 
     return horizontal * depth
 
+
 if __name__ == "__main__":
-   part1 = solve_part1(parse_input())
-   part2 = solve_part2(parse_input())
-   print(part1)
-   print(part2)
+    part1 = solve_part1(parse_input())
+    part2 = solve_part2(parse_input())
+    print(part1)
+    print(part2)

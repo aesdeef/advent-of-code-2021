@@ -34,7 +34,8 @@ def calculate_answer(template: str, pair_counter: Counter[str]) -> int:
     """
     Calculates how many times each letter occurs by adding the counts of pairs
     where the given letter comes first and 1 for the last letter of the original
-    template (which does not change)
+    template (which does not change), then subtracts the lowest count from the
+    highest count and returns the answer
     """
     letter_counter = Counter(template[-1])
 
@@ -42,8 +43,7 @@ def calculate_answer(template: str, pair_counter: Counter[str]) -> int:
         first_letter, _ = pair
         letter_counter[first_letter] += count
 
-    ordered_counts = letter_counter.most_common()
-    return ordered_counts[0][1] - ordered_counts[-1][1]
+    return max(letter_counter.values()) - min(letter_counter.values())
 
 
 def solve(template: str, ruleset: Ruleset) -> tuple[int, int]:

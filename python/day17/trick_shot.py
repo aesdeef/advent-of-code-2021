@@ -1,5 +1,4 @@
 import re
-from functools import cache
 from itertools import count
 
 INPUT_FILE = "../../input/17.txt"
@@ -19,7 +18,6 @@ def parse_input() -> Target:
     return (int(min_x), int(max_x), int(min_y), int(max_y))
 
 
-@cache
 def get_path(target: Target, velocity: Velocity) -> Path:
     """
     Computes the path up to the moment the probe goes beyond the target in

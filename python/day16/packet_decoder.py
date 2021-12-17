@@ -31,7 +31,7 @@ class LiteralValue(Packet):
 @dataclass(frozen=True)
 class Operator(Packet):
     operation: Operation
-    subpackets: list["Packet"]
+    subpackets: list[Packet]
 
 
 def hex_to_bin(char: str) -> Bits:

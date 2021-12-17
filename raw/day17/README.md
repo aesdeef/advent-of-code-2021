@@ -1,0 +1,1 @@
+I used the `help.py` to parse the initial velocity values given in part 2. At first it was only to see them in a sorted order, but then my code for part 2 worked for the example, but not for the input, so I also used it to check if I was counting the right values. (I did, the problem was that I naïvely thought that 200 steps in the `_on_step` functions should be plenty ._. )

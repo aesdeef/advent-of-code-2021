@@ -52,16 +52,14 @@ def explode(number: str, explodable: re.Match[str]) -> str:
     if m_left := re.fullmatch(
         r"(?P<before_left>.*)(?P<left>(?<!\d)\d+)(?P<after_left>[^\d]*)", before
     ):
-        m = m_left.groupdict()
-        new_left = int(m["left"]) + exploded_first
-        before = f"{m['before_left']}{new_left}{m['after_left']}"
+        new_left = int(m_left["left"]) + exploded_first
+        before = f"{m_left['before_left']}{new_left}{m_left['after_left']}"
 
     if m_right := re.fullmatch(
         r"(?P<before_right>[^\d]*)(?P<right>\d+)(?P<after_right>.*)", after
     ):
-        m = m_right.groupdict()
-        new_right = int(m["right"]) + exploded_second
-        after = f"{m['before_right']}{new_right}{m['after_right']}"
+        new_right = int(m_right["right"]) + exploded_second
+        after = f"{m_right['before_right']}{new_right}{m_right['after_right']}"
 
     return before + "0" + after
 

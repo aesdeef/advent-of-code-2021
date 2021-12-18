@@ -1,0 +1,1 @@
+I started solving today's puzzle using regex, and after about 15 minutes I started thinking it should be much easier to solve using trees. About an hour in I decided to try that (in the `no_regex.py` file), only to realise that I don't know how to do that using trees, and went back to `part1.py` and finished that

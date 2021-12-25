@@ -10,32 +10,203 @@ Structure of the repo:
 - `kotlin` contains my attempts to solve the puzzles in Kotlin. I've only started learning Kotlin this month, so any suggestions for improvements are welcome.
 - `elm` contains my solutions in Elm (see the instructions inside)
 
-|     | raw  | python | javascript | kotlin | elm |
-| --: | ---- | ------ | ---------- | ------ | --- |
-|   1 | ⭐⭐   | ⭐⭐     | ⭐⭐         | ⭐⭐     | ⭐⭐  |
-|   2 | ⭐⭐   | ⭐⭐     | ⭐⭐         | ⭐⭐     | ⭐⭐  |
-|   3 | ⭐⭐   | ⭐⭐     | ⭐⭐         |        | ⭐⭐  |
-|   4 | ⭐⭐   | ⭐⭐     | ⭐⭐         |        | ⭐⭐  |
-|   5 | ⭐⭐   | ⭐⭐     |            |        |     |
-|   6 | ⭐⭐   | ⭐⭐     |            |        |     |
-|   7 | ⭐⭐   | ⭐⭐     |            |        |     |
-|   8 | ⭐⭐   | ⭐⭐     |            |        |     |
-|   9 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  10 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  11 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  12 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  13 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  14 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  15 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  16 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  17 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  18 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  19 | ⭐⭐   | ⭐⭐     |            |        |     |
-|  20 | ⭐⭐   |        |            |        |     |
-|  21 | ⭐⭐   |        |            |        |     |
-|  22 | ⭐⭐   |        |            |        |     |
-|  23 |      |        |            |        |     |
-|  24 |      |        |            |        |     |
-|  25 |      |        |            |        |     |
+<table>
+  <tr>
+    <th></th>
+    <th>raw</th>
+    <th>python</th>
+    <th>javascript</th>
+    <th>kotlin</th>
+    <th>elm</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td>⭐⭐</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td>⭐⭐</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>⭐⭐</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>⭐⭐</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td rowspan="5">⭐⭐ (not included)</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td rowspan="2" colspan="5">I was disappointed by how tedious and time-consuming the assignments have become by that point and decided not to continue.</td>
+  </tr>
+  <tr>
+    <td>25</td>
+  </tr>
+</table>
+
 
 Feel free to start a discussion if you have any questions or suggestions.

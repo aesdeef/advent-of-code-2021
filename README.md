@@ -197,7 +197,7 @@ Structure of the repo:
   </tr>
   <tr>
     <td>23</td>
-    <td rowspan="5">⭐⭐ (not included)</td>
+    <td colspan="5">⭐⭐ (not included)</td>
   </tr>
   <tr>
     <td>24</td>
